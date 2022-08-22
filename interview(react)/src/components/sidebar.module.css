@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebarSection{
+    height:100vh;
+    width: 280px;
+    background-color: rgb(17,24,39);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation-name: popup;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+@keyframes popup {
+    0%{width:50px;}
+    25%{width:100px;}
+    50%{width:150px;}
+    75%{width:200px;}
+    100%{width:250px;}
+}
+.sidebarSection ul{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.sidebarSection ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.sidebarSection ul li a{
+    text-decoration: none;
+    font-size: 26px;
+    color: greenyellow;
+font-weight: 600;
+}

@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbarsection{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(252, 248, 248)
+}
+.navbardiv{
+    width: 90%;
+    height: 65px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navbardiv ul{
+    height: 65px;
+  width: 93%;
+  margin: 0 auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navbardiv ul li{
+    list-style: none;
+}
+.navbardiv a{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+}

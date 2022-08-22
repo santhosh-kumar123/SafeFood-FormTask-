@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.signUpdiv1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signUpform{
+    height: 55%;
+   width: 35%;
+    background-color: rgb(249,250,252);
+    padding: 30px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 2px 0px lightgray;
+    border: none;
+    border-radius: 5px;
+}
+.signUpform1{
+    height: 75%;
+   width: 35%;
+    background-color: rgb(249,250,252);
+    padding: 30px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 2px 0px lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
